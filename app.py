@@ -12,7 +12,7 @@ from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.oxml.ns import qn
 from docx.oxml import OxmlElement
 
-st.set_page_config(page_title="محول PDF إلى Word", page_icon="📖", layout="wide")
+st.set_page_config(page_title="محول PDF إلى Word", page_icon="📖", layout="wide", initial_sidebar_state="auto")
 
 st.error("""
 ### ⚠️ تنبيه شرعي وأخلاقي هام
